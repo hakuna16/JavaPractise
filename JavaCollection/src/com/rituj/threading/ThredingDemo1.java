@@ -1,0 +1,30 @@
+package com.rituj.threading;
+
+
+// This program tells us that how we can define a thread/
+class MyThread extends Thread{
+	public void run() {
+		for (int i = 0; i <5; i++) {
+			System.out.println("child Thread");
+		}
+	}
+}
+
+public class ThredingDemo1 {
+	
+	public static void main(String[] args) {
+		MyThread t = new MyThread();  // this will create thread
+		t.start();						// starting of thread by calling run method.
+		/*Start(){
+			1. Register this thread with Thread Scheduler.
+			2. Perform all other mandatory activities.
+			3.Invoke the Run Method
+		}*/
+		for (int i = 0; i <5; i++) {
+			System.out.println("Parent-MAin Thread");
+			
+		}
+		System.out.println("End Of program");
+	}
+		
+}
