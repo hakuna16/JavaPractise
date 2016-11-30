@@ -16,8 +16,8 @@ public class ThreadDemo2 {
 		// TODO Auto-generated method stub
 		
 		MyThread1 t= new MyThread1();
-		//t.start();
-		t.run();
+		t.start();
+		t.run(5);
 		
 		System.out.println("MAin Method Called.");
 	}
