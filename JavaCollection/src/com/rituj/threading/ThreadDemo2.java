@@ -14,7 +14,12 @@ public class ThreadDemo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		MyThread1 t= new MyThread1();
+		//t.start();
+		t.run();
+		
+		System.out.println("MAin Method Called.");
 	}
 
 }

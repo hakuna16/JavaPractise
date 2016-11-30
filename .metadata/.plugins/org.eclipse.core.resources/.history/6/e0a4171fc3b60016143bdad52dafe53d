@@ -1,0 +1,18 @@
+package com.rituj.threading;
+
+/*we can get & set the name of the thread by using the following Methods.
+	1. public final String getName();
+	2. public final void SetName(String Name);*/
+
+class MyThread6 implements Runnable{
+	
+}
+
+public class NameOfThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

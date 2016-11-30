@@ -1,0 +1,19 @@
+package com.rituj.threading;
+
+class MyThread4 extends Thread{
+	
+	public void  run() {
+		System.out.println("no-argument Method");
+	}
+	public void run(int a){
+		System.out.println("var-argument Method");
+	}
+}
+public class ThreadDemo4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
