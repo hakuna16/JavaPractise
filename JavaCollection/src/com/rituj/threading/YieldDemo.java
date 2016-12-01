@@ -1,0 +1,30 @@
+package com.rituj.threading;
+
+class Mythread8 extends Thread{
+	public void run() {
+		for (int i = 0; i <5; i++) {
+			System.out.println("child Thread");
+			//Thread.yield();
+		}
+	}
+}
+
+public class YieldDemo {
+
+	/*it is used to pass the current execution of thread and give pass to the waiting thread.
+	syntax:
+			public static native void yield();
+*/
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mythread8 t = new Mythread8();
+		t.start();
+		
+		for (int i = 0; i <5; i++) {
+			System.out.println("MAin Thread");
+		}
+	}
+
+	//some platform wont provide support for the yield method
+}
