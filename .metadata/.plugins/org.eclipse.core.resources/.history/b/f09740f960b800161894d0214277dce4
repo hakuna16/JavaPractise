@@ -1,0 +1,9 @@
+package com.rituj.mvc;
+
+public class StudentView {
+	
+	public void printStudentDetails(Student name, Student rollno){
+		
+	}
+
+}

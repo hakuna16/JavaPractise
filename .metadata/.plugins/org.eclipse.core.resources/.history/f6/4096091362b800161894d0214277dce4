@@ -1,0 +1,21 @@
+package com.rituj.mvc;
+
+public class MVCPatternDemo {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MVCPatternDemo d = new MVCPatternDemo();
+		d.retriveStudentDataFromDB(student);
+		
+	}
+	
+	public Student retriveStudentDataFromDB(Student student){
+			student.setName("rituj");
+			student.setRollno("1001");
+			
+		return student;
+		
+	}
+
+}

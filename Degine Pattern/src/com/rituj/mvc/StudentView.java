@@ -1,0 +1,15 @@
+package com.rituj.mvc;
+
+// so what basically view will do that it will print the data provided by the controller.
+public class StudentView {
+	
+	public void printStudentDetails(String name, String rollno){
+		
+		System.out.println("Student Details");
+		System.out.println("Student Name : "+name);
+		System.out.println("Student Roll Numebr: "+ rollno);
+		
+		
+	}
+
+}

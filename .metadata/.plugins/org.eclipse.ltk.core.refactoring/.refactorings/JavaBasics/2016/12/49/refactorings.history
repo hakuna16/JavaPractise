@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ocm.rituj.pakage&apos; to &apos;com.rituj.pakage&apos;&#x0D;&#x0A;- Original project: &apos;JavaBasics&apos;&#x0D;&#x0A;- Original element: &apos;JavaBasics/src/ocm.rituj.pakage&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaBasics/src/com.rituj.pakage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ocm.rituj.pakage&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ocm.rituj.pakage" name="com.rituj.pakage" qualified="false" references="true" stamp="1480678936563" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package com.rituj.abstractFactory;
+
+public class FactoryprPoducer {
+	
+	public static AbstractFactory getAbstractFactory(String choice){
+		
+		if(choice.equalsIgnoreCase("SHAPE")){
+			return new ShapeFactory();
+		}
+		
+		return null;
+		
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.rituj.mvc;
+
+public class Student {
+
+}

@@ -1,0 +1,23 @@
+package com.rituj.abstractFactory;
+
+public class ShapeFactory extends AbstractFactory {
+
+	@Override
+	public Shape getShape(String shapeType) {
+		// TODO Auto-generated method stub
+		
+		if(shapeType == null){
+			return null;
+		}
+		
+		return null;
+	}
+
+	@Override
+	public Color getColor(String color) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

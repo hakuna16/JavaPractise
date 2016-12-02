@@ -1,0 +1,12 @@
+package com.rituj.abstractFactory;
+
+public class AbstractFactoryPatternDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		AbstractFactory shapeFactory = FactoryPoducer.getAbstractFactory("SHAPE");
+		
+	}
+
+}

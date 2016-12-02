@@ -1,0 +1,6 @@
+package com.rituj.abstractFactory;
+
+public class ShapeFactory extends AbstractFactory {
+
+
+}

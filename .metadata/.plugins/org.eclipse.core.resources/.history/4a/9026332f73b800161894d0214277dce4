@@ -1,0 +1,17 @@
+package com.rituj.abstractFactory;
+
+public class ColorFactory extends AbstractFactory {
+
+	@Override
+	public Shape getShape() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Color getColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.rituj.mvc;
+
+// so what basically view will do that it will print the data provided by the controller.
+public class StudentView {
+	
+	public StudentView(Student model) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void printStudentDetails(Student name, Student rollno){
+		
+		System.out.println("Student Details");
+		System.out.println("Student Name : "+name);
+		System.out.println("Student Roll Numebr: "+ rollno);
+		
+		
+	}
+
+}
