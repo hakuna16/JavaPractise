@@ -4,9 +4,7 @@ public class toStringExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		toStringExample to = new toStringExample();
-		System.out.println(to.toString());
-		System.out.println(to);
+
 	}
 
 }
