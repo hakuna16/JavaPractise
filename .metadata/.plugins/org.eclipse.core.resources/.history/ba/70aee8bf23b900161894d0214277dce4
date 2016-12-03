@@ -1,0 +1,12 @@
+package com.rituj.impot;
+
+enum color{
+	BLUE,RED,GREEN;
+	
+	public void info(){
+		System.out.println("universal colors");
+	}
+}
+public class Test {
+
+}

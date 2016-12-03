@@ -1,0 +1,11 @@
+package com.rituj.pakage;
+
+enum Beer{
+	kf,ko,bd;
+}
+
+public class BeerDemo {
+ public static void main(String[] args) {
+	System.out.println(kf);
+}
+}
