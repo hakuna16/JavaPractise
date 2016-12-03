@@ -5,9 +5,6 @@ enum color{
 	
 	public void info(){
 		System.out.println("universal colors " + name());
-		
-		
-		System.out.println("universal Nmaes " + name());
 	}
 }
 public class Test {
