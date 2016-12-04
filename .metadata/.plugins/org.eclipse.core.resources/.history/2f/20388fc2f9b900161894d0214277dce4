@@ -1,0 +1,11 @@
+package com.rituj.exceptionBasics;
+
+public class TestException {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("STMT1");
+		
+		System.out.println(10/0);
+	}
+}

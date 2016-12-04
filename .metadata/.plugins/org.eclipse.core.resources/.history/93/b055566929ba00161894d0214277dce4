@@ -1,0 +1,17 @@
+package com.rituj.exceptionBasics;
+
+class TooYoungException extends RuntimeException {
+	public TooYoungException(String s) {
+		super(s);
+	}
+}
+
+class TooOldException extends RuntimeException {
+	TooOldException(String s1){
+		super(s1);
+	}
+}
+
+public class CustomException {
+
+}
