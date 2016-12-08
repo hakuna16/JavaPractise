@@ -1,0 +1,5 @@
+package com.rituj.exception;
+
+public class UserDefinedException {
+
+}

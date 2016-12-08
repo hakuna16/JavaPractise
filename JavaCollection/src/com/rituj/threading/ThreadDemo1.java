@@ -19,7 +19,7 @@ public class ThreadDemo1 {
 	
 	Thread mt = Thread.currentThread();
 	Thread_1 t = new Thread_1();
-	t.start();
+	//t.start();
 	
 	
 }

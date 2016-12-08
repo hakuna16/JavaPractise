@@ -1,0 +1,11 @@
+package com.rituj.basics;
+
+class A{
+	
+	public void xmethod{
+		System.out.println("A");
+	}
+}
+public class Test {
+
+}

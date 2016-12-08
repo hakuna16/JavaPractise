@@ -1,0 +1,22 @@
+package com.rituj.basics;
+
+import java.util.Scanner;
+
+public class Plindrome {
+	
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		String n;
+		System.out.println("Enter the no to be chaeked for the palindrome");
+		
+		n=s.nextLine()();
+		
+		System.out.println(n);
+		
+		String number;
+		
+		 number=n;
+		 
+	}
+}

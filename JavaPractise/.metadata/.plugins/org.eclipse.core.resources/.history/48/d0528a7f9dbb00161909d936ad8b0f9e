@@ -1,0 +1,11 @@
+package com.rituj.collection;
+
+import java.util.ArrayList;
+
+public class ArrayListToString {
+
+		public static void main(String[] args) {
+			
+			ArrayList l = new ArrayList();
+		}
+}

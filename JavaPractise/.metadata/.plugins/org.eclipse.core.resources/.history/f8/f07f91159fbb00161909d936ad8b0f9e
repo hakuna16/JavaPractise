@@ -1,0 +1,9 @@
+package com.rituj.basics;
+
+public class Plindrome {
+	
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner();
+	}
+}

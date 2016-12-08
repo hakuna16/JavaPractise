@@ -1,0 +1,24 @@
+package com.rituj.basics;
+
+class A{
+	
+	public void xmethod(){
+		System.out.println("A");
+	}
+}
+class B extends A{
+	
+	  public void xmethod(){
+		System.out.println("B");
+	}
+}
+public class Test {
+
+	public static void main(String[] args) {
+		B b = new B();
+		A b1 = new A();
+		A b2 = new B();
+		B b3 = new A();
+		b1.xmethod();
+	}
+}

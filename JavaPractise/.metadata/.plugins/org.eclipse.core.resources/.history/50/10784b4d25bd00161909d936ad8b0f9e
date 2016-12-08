@@ -1,0 +1,14 @@
+package com.rituj.algorithms;
+
+import java.util.Scanner;
+
+public class LinearSearch {
+	
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		int size=10;
+		int arr[] = new int[size];
+	}
+
+}
