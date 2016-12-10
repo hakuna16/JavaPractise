@@ -15,7 +15,7 @@ public class Test {
 	public static void main(String[] args) {
 		p p1 = new p();
 		p p2= new c();
-		c c1 = new c();
+		c c1 = new p();
 		c1.m2();
 		 	 
 	}
